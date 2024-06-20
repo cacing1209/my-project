@@ -12,12 +12,3 @@ int getMemo(int addres, float value_name)
 {
     EEPROM.get(addres, value_name);
 }
-/*
-echo "# my-project" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/cacing1209/my-project.git
-git push -u origin main
-*/
